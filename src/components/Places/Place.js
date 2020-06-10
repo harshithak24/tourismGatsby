@@ -13,7 +13,7 @@ const Place = ({ place }) => {
                 <Link fade className={styles.link} to={`/places/${slug}`}>Details</Link>
             </div>
             <div className={styles.footer}>
-                <h3>{name}</h3>
+            <h3>{name}</h3>
             </div>
         </article>
     )
