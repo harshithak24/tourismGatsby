@@ -4,8 +4,8 @@ import styles from "../../css/place.module.css"
 import { Link } from "gatsby"
 
 const Place = ({ place }) => {
-    const { name, slug, images } = place;
-    let mainImage = images[0].fluid;
+    const { name, slug, images1 } = place;
+    let mainImage = images1[0].fluid;
     return (
         <article className={styles.place}>
             <div className={styles.imgContainer}>
