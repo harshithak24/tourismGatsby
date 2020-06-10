@@ -1,5 +1,5 @@
 .places {
-    padding: 4rem 0;
+    padding: 3rem 0;
     text-align: center;
   }
   .sub-text {
@@ -19,12 +19,12 @@
     grid-column-gap: 2rem;
     grid-row-gap: 2rem;
   }
-  @media screen and (min-width: 576px) {
+  @media screen and (min-width: 400px) {
     .center {
       grid-template-columns: repeat(auto-fill, minmax(368.66px, 1fr));
     }
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1800px) {
     .center {
       width: 100%;
       max-width: 1170px;

@@ -3,7 +3,6 @@ import Image from "gatsby-image"
 import styles from "../../css/place.module.css"
 import { Link } from "gatsby"
 
-
 const Place = ({ place }) => {
     const { name, slug, images1 } = place;
     let mainImage = images1[0].fluid;
