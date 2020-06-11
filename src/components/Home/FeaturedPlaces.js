@@ -38,7 +38,7 @@ const FeaturedPlaces = () => {
                 })}
             </div>
             <Link to="/places" className="btn-primary">
-                All places
+                all places
             </Link>
         </section>
     )
